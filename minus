@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int sub(int a, int b)
+{
+    return a-b;
+}
+
+int main()
+{
+   int m=0;
+   int n=0;
+   int s=sub(m,n);
+   printf("sub=%d",s);
+    return 0;
+}
